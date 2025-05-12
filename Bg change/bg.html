@@ -5,12 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+<style>
+.buttons{
+    align-items: center;
+    justify-content: center;
+    background-color: azure;
+}
+</style>
 <body>
-    <div>
-        <button>Red</button>
-        <button>Blue</button>
-        <button>Black</button>
-        <button>Default</button>
+    <div class="buttons">
+        <button onclick="changecolor('red')">Red</button>
+        <button onclick="changecolor('blue')"> Blue </button>
+        <button onclick="changecolor('black')">Black</button>
+        <button onclick="changecolor('azure')">Default</button>
     </div>
+    <script>
+        function changecolor(color){
+        document.body.style.backgroundColor = color;
+        }
+    </script>
 </body>
 </html>
