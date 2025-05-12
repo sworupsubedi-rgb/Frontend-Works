@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<header> <a href="index.html">
+     <button class="count">Counter</button>
+    </a></header>
+<style>
+.counter{
+   text-align: center;
+   background: tomato;
+   padding: 10px;
+   border-radius: 50px;
+   transition: transform 1s ease;
+   
+}
+   .counter:hover{
+    transform: translateY(-100px);
+   
+    
+}
+.count{
+    border-radius: 5px;
+}
+body{
+    justify-content: center;
+    display: flex;
+    margin-top: 20rem;
+}
+textarea{
+    background-color: tomato;
+}
+
+</style>
+<body>
+    <div class="counter">
+        <header><h1>Live characters</h1></header>
+
+        <textarea name="" id="input" placeholder="Text here" oninput="count()"></textarea>
+        <div>Characters: <span id="countc">0</span></div>
+    </div>
+    <script src="aa.js"></script>
+    
+</body>
+</html>

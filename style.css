@@ -1,0 +1,41 @@
+
+.counter{
+   text-align: center;
+   background: tomato;
+   padding: 10px;
+   border-radius: 10px;
+   transition: transform 1s ease;
+}
+button {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 20px;
+    cursor: pointer;
+}
+body{
+    justify-content: center;
+    display: flex;
+    margin-top: 20rem;
+}
+p{
+   font-size: 2rem;
+}
+
+.link {
+border-radius: 5px;
+background-color: bisque;
+color: black;
+}
+
+
+button{
+    border-radius: 50%;
+    border-color: blue;
+    background-color: black;
+    color: azure;
+}
+.counter:hover{
+    transform: translateY(-100px);
+   
+    
+}
